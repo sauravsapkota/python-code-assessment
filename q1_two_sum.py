@@ -7,6 +7,7 @@ def two_sum(nums, target):
             return [complement_map[complement], i]
         complement_map[num] = i
 
+
 # Example usage
 nums = [2, 7, 11, 15]
 target = 9
