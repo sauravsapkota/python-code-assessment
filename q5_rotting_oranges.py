@@ -5,7 +5,7 @@ def oranges_rotting(grid):
     rows, cols = len(grid), len(grid[0])
     queue = deque()  # Queue to hold the rotten oranges
     fresh_count = 0  # Count of fresh oranges
-    
+
     # Initialize the queue with all initially rotten oranges and count fresh oranges
     for r in range(rows):
         for c in range(cols):
